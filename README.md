@@ -11,3 +11,5 @@ Qui una breve descrizione dei parametri da compilare (con screen allegato sotto)
 - Buffer distance: potete selezionare un buffer così da produrre una fisiografia che va anche oltre la AOI (l'unità di misura è in metri)
 - Contour lines interval: selezionate l'intervallo delle contour lines. Più è basso, più la fisiografia apparirà "fitta" (l'unità di misura è in metri)
 - Threshold length: è un parametro usato dall'algoritmo per elimanre le features più piccole. Più è alto il suo valore e più grandi saranno le features che verranno eliminate. In generale consiglio di usare l'MMU (unità di misura sempre in metri).
+
+il tool carica automaticamente il layer nella TOC una volta che ha finito e ogni volta che verrà lanciato si "pulirà" da solo. Quindi se il risultato non vi piace e volete cambiare dei parametri, non c'è bisogno di cancellare a mano le features prima di rilanciarlo.
